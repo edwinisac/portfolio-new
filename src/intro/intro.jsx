@@ -37,7 +37,6 @@ export function Intro() {
       </div>
       <div className="image">
         <img src={image} alt="" className="profile" />
-        <div className="cover"> </div>
       </div>
     </div>
   );
