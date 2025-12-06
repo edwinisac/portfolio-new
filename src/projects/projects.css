@@ -1,0 +1,91 @@
+.projects-container {
+  width: 100%;
+  margin-top: 40px;
+  height: 60vh;
+}
+.projects-container p {
+  text-align: center;
+  font-size: 24px;
+  
+}
+.container {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap:45px;
+  flex-wrap: wrap;
+  overflow-x: auto;
+}
+.project {
+  width: 40%;
+  height: 400px;
+  border: 1px solid white;
+  transition: all ease 0.5ms;
+}
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 10px;
+  color:white;
+}
+
+.actions {
+  width: 100%;
+  height: 90%;
+  display: flex;
+}
+.section {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.action-icons {
+  color: rgba(255, 255, 255, 0);
+}
+.github:hover {
+  background-color: rgba(255, 255, 255, 0.226);
+  .icon1 {
+    color: white;
+  }
+}
+.demo:hover {
+  background-color: rgba(255, 255, 255, 0.226);
+  .icon2 {
+    color: white;
+  }
+}
+
+.project:hover {
+  .title {
+    color: gray;
+}
+}
+.project-image {
+  width: 100%;
+}
+
+
+
+@media (max-width: 1000px) {
+    .project{
+        width:80%;
+    }
+}
+
+@media (max-width: 800px) {
+    .project{
+        width:100%;
+        
+    }
+    .action-icons{
+        color:white;
+        
+    }
+ 
+}
+

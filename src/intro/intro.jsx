@@ -21,16 +21,16 @@ export function Intro() {
         <div className="icons">
           <ul className="icons-list">
             <li className="icon">
-              <Linkedin />
+              <Linkedin size="30px" />
             </li>
             <li className="icon">
-              <Instagram />
+              <Instagram size="30px"/>
             </li>
             <li className="icon">
-              <Github />
+              <Github size="30px"/>
             </li>
             <li className="icon">
-              <Mail />
+              <Mail size="30px" />
             </li>
           </ul>
         </div>
