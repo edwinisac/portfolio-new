@@ -1,7 +1,7 @@
 import "./skills.css";
 export function Skills(){
     return(
-        <div className="skills">
+        <div className="skills-container" id="skills">
             <p>Things I Know</p>
             <ul className="skills-list">
                 <li className="skill">HTML</li>

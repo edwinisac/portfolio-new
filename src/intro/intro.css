@@ -64,6 +64,7 @@
     flex-direction: column;
     gap:15px;
     font-family: 'Fira Code', monospace;
+    color: #e5e5e5;
 }
 
 .icons-list{
@@ -85,7 +86,28 @@
     
 }
 
-
+.cursor {
+    display: inline-block;
+    margin-left: 4px;
+    color: #9d4edd;
+    animation: terminal-blink 1s steps(1) infinite;
+    line-height: 1;
+    vertical-align: bottom;
+    text-shadow: 0 0 6px rgba(157, 78, 221, 0.6);
+  }
+  
+  @keyframes terminal-blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
 
 
 
@@ -98,6 +120,7 @@
 @media (max-width: 800px) {
     .intro{
         flex-direction: column;
+        padding-top: 10vh;
     }
     .details{
         width:95%;

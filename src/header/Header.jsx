@@ -4,10 +4,10 @@ export function Header() {
     <>
       <div className="header">
         <ul className="menu-items ">
-          <li className="link">Home</li>
-          <li className="link">Skills</li>
-          <li className="link">Projects</li>
-          <li className="link">Contact</li>
+          <li className="link"><a href="#home">Home</a></li>
+          <li className="link"><a href="#skills">Skills</a></li>
+          <li className="link"><a href="#projects">Projects</a></li>
+          <li className="link"><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </>

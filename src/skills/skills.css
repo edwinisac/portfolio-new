@@ -1,11 +1,11 @@
-.skills{
+.skills-container{
     margin-top:100px;
     width:100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.skills p{
+.skills-container p{
     margin-bottom:30px;
     font-size: 24px;
 }

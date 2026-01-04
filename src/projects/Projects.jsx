@@ -6,7 +6,7 @@ import {Github,Eye} from "lucide-react";
 
 export function Projects() {
   return (
-    <div className="projects-container">
+    <div className="projects-container" id="projects">
       <p>Projects</p>
       <div className="container">
         <div
