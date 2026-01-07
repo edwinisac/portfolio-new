@@ -1,7 +1,27 @@
 {
   "projects": [
-    { "id": 1, "title": "smart shopping list" },
-    { "id": 2, "title": "smart shopping list React" }
+    {
+      "id": 1,
+      "title": "smart shopping list",
+      "image": "smartsl.png",
+      "github": "https://github.com/edwinisac/smart-shopping-list",
+      "demo":"https://httpstat.us/404"
+
+    },
+    {
+      "id": 2,
+      "title": "smart shopping list React",
+      "image": "smartslr.png",
+      "github": "https://github.com/edwinisac/smart-shopping-list-react",
+      "demo":"https://httpstat.us/404"
+    },
+    {
+      "id": 3,
+      "title": "ToDo List",
+      "image": "tdl.png",
+      "github": "https://github.com/edwinisac/todo-list",
+      "demo": "https://edwinisac.github.io/todo-list/"
+    }
   ],
   "skills": [
     { "id": 1, "skill": "HTML" },

@@ -1,7 +1,7 @@
 import "./projects.css";
 
 
-import image1 from "../assets/project-images/image1.png";
+// import image1 from "../assets/project-images/image1.png";
 
 import {Github,Eye} from "lucide-react";
 import { useEffect, useState } from "react";
@@ -37,22 +37,21 @@ export function Projects() {
         <div
         className="project" key={project.id}
         style={{
-          backgroundImage: `url(${image1})`,
+          backgroundImage: `url(project-images/${project.image})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
-        {/* <div classNam1e="project-image">
-          <img src={image1} alt="" />
-        </div> */}
+    
         <div className="title">{project.title}</div>
         <div className="actions">
-          <div className="github section">
+          <a className="github section" href={project.github} target="_blank" rel="noopener noreferrer" >
               <Github size="55px"  className="action-icons icon1"/>
-          </div>
-          <div className="demo section">
+          </a>
+          
+          <a className="demo section" href={project.demo} target="_blank" rel="noopener noreferrer">
             <Eye size="55px"  className="action-icons icon2"/>
-          </div>
+          </a>
 
         </div>
       </div>
