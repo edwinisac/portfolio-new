@@ -5,7 +5,7 @@
       "title": "smart shopping list",
       "image": "smartsl.png",
       "github": "https://github.com/edwinisac/smart-shopping-list",
-      "demo":"https://httpstat.us/404"
+      "demo":"https://edwinisac.github.io/smart-shopping-list/"
 
     },
     {
@@ -21,6 +21,20 @@
       "image": "tdl.png",
       "github": "https://github.com/edwinisac/todo-list",
       "demo": "https://edwinisac.github.io/todo-list/"
+    },
+    {
+      "id": 4,
+      "title": "Tic-Tac-Toe Game (Early JavaScript Project)",
+      "image": "tictactoe.png",
+      "github": "https://github.com/edwinisac/tictactoe",
+      "demo": "https://edwinisac.github.io/tictactoe/"
+    },
+    {
+      "id": 5,
+      "title": "calculator with toggle theme",
+      "image": "calculator.png",
+      "github": "https://github.com/edwinisac/calculator-project",
+      "demo": "https://edwinisac.github.io/calculator-project/"
     }
   ],
   "skills": [
